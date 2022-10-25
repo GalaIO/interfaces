@@ -55,6 +55,9 @@ enum MessageId {
 
   // ======= eth 67 protocol ===========
   // Version 67 removed the GetNodeData and NodeData messages.
+
+  // ======= eth 68 protocol ===========
+  New_Vote_68 = 32;
 }
 
 message OutboundMessageData {
@@ -114,6 +117,7 @@ enum Protocol {
   ETH65 = 0;
   ETH66 = 1;
   ETH67 = 2;
+  ETH68 = 3;
 }
 
 message SetStatusReply {}
